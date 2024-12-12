@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "6cebdbfe-1652-b2bb-56b3-bc74e2c02eef",
     "Name": "UsrCarBodyType",
-    "ModifiedOnUtc": "\/Date(1733830584000)\/",
+    "ModifiedOnUtc": "\/Date(1733915279000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "d69c86a8-30e4-474c-aec9-8f748e6d1f52",
@@ -10,15 +10,29 @@
     },
     "Columns": [
       {
-        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "e86949e7-1ee6-4277-8e20-982a9c673fdb",
         "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "RecordInactive",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": true,
         "IsKey": false,
         "ColumnName": "Description",
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       },
       {
         "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
-        "IsForceUpdate": false,
+        "IsForceUpdate": true,
         "IsKey": false,
         "ColumnName": "CreatedOn",
         "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
@@ -32,17 +46,10 @@
       },
       {
         "ColumnUId": "d48bfdd4-a499-3918-22c5-e199777d5b56",
-        "IsForceUpdate": false,
+        "IsForceUpdate": true,
         "IsKey": false,
         "ColumnName": "UsrCode",
         "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
-      },
-      {
-        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "Name",
-        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       }
     ]
   }
