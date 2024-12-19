@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "99501ea8-4496-4673-8e4e-4fe082fd8ba9",
     "Name": "UsrCalculateRealtyAveragePriceProcess",
-    "ModifiedOnUtc": "\/Date(1734435378000)\/",
+    "ModifiedOnUtc": "\/Date(1734516384000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Calculate realty average price process",
     "DependsOn": []
